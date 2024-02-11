@@ -1,0 +1,35 @@
+.suggestionWrapper {
+    color: #343434;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 320px;
+}
+.suggestionNote {
+    margin-bottom: 40px;
+}
+.suggestionOptionList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+.suggestionOptionList li {
+    margin-left: 0;
+    color: var(--Black, #010403);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 8px 26px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid var(--Brandy-Rose, #b18e6f);
+}
+.suggestionOptionList li:hover,
+.suggestionOptionList li:active {
+    background: #b18e6f;
+}
